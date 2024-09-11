@@ -1,0 +1,25 @@
+body {
+  background-color: #1e1e1e;
+  color: #c7c7c7;
+  font-family: 'Fira Code', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#editor {
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#editor:focus {
+  box-shadow: 0 0 15px #34D399;
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+
